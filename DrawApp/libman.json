@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "@microsoft/signalr@latest",
+      "destination": "wwwroot/js/signalr",
+      "files": [
+        "dist/browser/signalr.js",
+        "dist/browser/signalr.js"
+      ]
+    },
+    {
+      "library": "paper@latest",
+      "destination": "wwwroot/js/paper",
+      "files": [
+        "dist/paper-full.min.js"
+      ]
+    }
+  ]
+}
